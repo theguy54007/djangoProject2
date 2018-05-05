@@ -77,7 +77,7 @@
         <entry file="file://$PROJECT_DIR$/project1/project1/production_settings.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="300">
-              <caret line="20" column="22" selection-start-line="20" selection-start-column="22" selection-end-line="20" selection-end-column="22" />
+              <caret line="20" column="22" lean-forward="true" selection-start-line="20" selection-start-column="22" selection-end-line="20" selection-end-column="22" />
               <folding>
                 <element signature="e#30#53#0" expanded="true" />
               </folding>
@@ -238,10 +238,11 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.1952079" />
       <window_info anchor="bottom" id="TODO" order="10" />
-      <window_info anchor="bottom" id="Event Log" order="2" sideWeight="0.5003524" side_tool="true" visible="true" weight="0.29090908" />
+      <window_info anchor="bottom" id="Event Log" order="2" sideWeight="0.5003524" side_tool="true" weight="0.29090908" />
       <window_info anchor="bottom" id="Find" order="5" weight="0.33818182" />
       <window_info anchor="bottom" id="Run" order="6" />
       <window_info anchor="bottom" id="Version Control" order="3" />
@@ -538,7 +539,7 @@
     <entry file="file://$PROJECT_DIR$/project1/project1/production_settings.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
-          <caret line="20" column="22" selection-start-line="20" selection-start-column="22" selection-end-line="20" selection-end-column="22" />
+          <caret line="20" column="22" lean-forward="true" selection-start-line="20" selection-start-column="22" selection-end-line="20" selection-end-column="22" />
           <folding>
             <element signature="e#30#53#0" expanded="true" />
           </folding>
