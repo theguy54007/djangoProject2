@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="b4712950-3dfc-46c0-b1ac-88853287bf2e" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/project1/Procfile" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project1/project1/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/project1/project1/settings.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/project1/project1/wsgi.py" beforeDir="false" afterPath="$PROJECT_DIR$/project1/project1/wsgi.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/project1/requirements.txt" beforeDir="false" />
     </list>
@@ -28,8 +27,8 @@
       <file leaf-file-name="settings.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/project1/project1/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="433">
-              <caret line="121" selection-start-line="121" selection-end-line="121" />
+            <state relative-caret-position="448">
+              <caret line="122" lean-forward="true" selection-start-line="122" selection-end-line="122" />
             </state>
           </provider>
         </entry>
@@ -107,7 +106,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/project1" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -141,11 +140,11 @@
         <option value="$PROJECT_DIR$/project1/Procfile" />
         <option value="$PROJECT_DIR$/project1/requirements.txt" />
         <option value="$PROJECT_DIR$/project1/runtime.txt" />
-        <option value="$PROJECT_DIR$/project1/project1/settings.py" />
         <option value="$PROJECT_DIR$/project1/project1/wsgi.py" />
         <option value="$PROJECT_DIR$/requirements.txt" />
         <option value="$PROJECT_DIR$/project1/project1/production_settings.py" />
         <option value="$PROJECT_DIR$/Procfile" />
+        <option value="$PROJECT_DIR$/project1/project1/settings.py" />
       </list>
     </option>
   </component>
@@ -220,6 +219,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.1952079" />
       <window_info anchor="bottom" id="TODO" order="10" />
@@ -525,8 +525,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/project1/project1/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="433">
-          <caret line="121" selection-start-line="121" selection-end-line="121" />
+        <state relative-caret-position="448">
+          <caret line="122" lean-forward="true" selection-start-line="122" selection-end-line="122" />
         </state>
       </provider>
     </entry>

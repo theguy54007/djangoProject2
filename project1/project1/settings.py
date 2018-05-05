@@ -118,5 +118,5 @@ USE_TZ = True
 
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/2.0/howto/static-files/
-# Parse database configuration from $DATABASE_URL
 
+STATIC_URL = '/static/'
