@@ -13,9 +13,6 @@ def index(request):
 
     return render(request, 'students/index.html', context)
 
-def detail(request, student_id):
-    student = get_object_or_404(Student, pk=student_id)
-    return render(request, 'students/detail.html', {'student': student})
 
 
 def create_student(request):
