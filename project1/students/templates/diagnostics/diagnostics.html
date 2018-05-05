@@ -1,0 +1,46 @@
+{% load staticfiles %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Diagnostics</title>
+    <link rel="stylesheet" type="text/css" href="{% static 'students/bootstrap-3.3.7-dist/css/bootstrap.min.css' %}"/>
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <h1>Diagnostics List</h1>
+            <br>
+            <a href="{% url 'students:create_diagnostic' student.id %}" class="btn btn-primary">Add Diagnostic</a>
+            <br>
+            <table class="table table-striped">
+
+                <thead>
+                    <tr>
+                        <th>Name</th>
+                        <th>Test level</th>
+                        <th>Test Date Time</th>
+                        <th>Option</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {% for diagnostic in student.diagnostic_set.all %}
+                    <tr>
+                        <td>{{ diagnostic.name }}</td>
+                        <td>{{ diagnostic.test_level }}</td>
+                        <td>{{ diagnostic.test_datetime }}</td>
+                        <td>
+                            <a href="{% url 'students:update_diagnostic' student.id diagnostic.id %}" class="btn btn-primary">Edit</a>
+                            <a href="{% url 'students:delete_diagnostic' student.id diagnostic.id %}" class="btn btn-danger">Delete</a>
+                        </td>
+                    </tr>
+                    {% endfor %}
+                </tbody>
+            </table>
+            <a href="{% url 'students:index' %}" class="btn btn-default">Back</a>
+        </div>
+    </div>
+
+</body>
+</html>

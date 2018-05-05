@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+    <h2>{{ student.name }}</h2>
+    <ul>
+        <li>English Name: {{ student.name_en}} </li>
+        <li>Birthday: {{ student.birth_date}} </li>
+        <li>Gender: {{ student.gender}} </li>
+        <li>School Name: {{ student.current_school_name}} </li>
+        <li>Grade: {{ student.current_school_grade}} </li>
+    </ul>
+        <a href="{% url 'students:update_student' student.id %}">Edit Profile</a>
+        <a href="{% url 'students:delete_student' student.id %}">Delete</a>
+
+</body>
+</html>
