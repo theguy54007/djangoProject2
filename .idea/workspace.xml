@@ -16,18 +16,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/project1/students/views.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="447">
-              <caret line="86" column="88" selection-start-line="86" selection-start-column="88" selection-end-line="86" selection-end-column="88" />
-              <folding>
-                <element signature="e#0#64#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="diag-delete-confirm.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/project1/students/templates/diagnostics/diag-delete-confirm.html">
           <provider selected="true" editor-type-id="text-editor">
@@ -73,7 +61,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="production_settings.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="production_settings.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/project1/project1/production_settings.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="300">
@@ -83,6 +71,11 @@
               </folding>
             </state>
           </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="manage.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/project1/manage.py">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file leaf-file-name="wsgi.py" pinned="false" current-in-tab="false">
@@ -240,7 +233,7 @@
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.1952079" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.1952079" />
       <window_info anchor="bottom" id="TODO" order="10" />
       <window_info anchor="bottom" id="Event Log" order="2" sideWeight="0.5003524" side_tool="true" weight="0.29090908" />
       <window_info anchor="bottom" id="Find" order="5" weight="0.33818182" />
@@ -248,7 +241,7 @@
       <window_info anchor="bottom" id="Version Control" order="3" />
       <window_info anchor="bottom" id="Python Console" order="0" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="1" sideWeight="0.49964765" visible="true" weight="0.29090908" />
+      <window_info anchor="bottom" id="Terminal" order="1" sideWeight="0.49964765" visible="true" weight="0.29090908" />
       <window_info anchor="bottom" id="Debug" order="7" weight="0.4" />
       <window_info id="Favorites" order="0" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -545,6 +538,9 @@
           </folding>
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project1/manage.py">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
 </project>
